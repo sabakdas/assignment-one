@@ -1,0 +1,121 @@
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* shared styles */
+.primary-color{
+ color: #4E47FF;
+}
+.btn-primary{
+  border-radius: 10px;
+  background-color: #4E47FF;
+  border:none;
+  color: white;
+  padding: 12px 36px;
+  cursor: pointer;
+}
+/* header styles */
+.header{
+    background-image:url("B12A01-landing-launchpad/Assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left ,bottom right;
+    margin-bottom: 116px;
+  
+}
+
+/* nav styles */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 13.5%;
+}
+.banner{
+  text-align: center;
+}
+nav h3{
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+nav button{
+  margin-top: 51.5px;
+}
+.header div h3{
+  font-size: 65px;
+  font-weight: bold;
+  margin: 158px 267px 49px;
+}
+.header div button{
+  margin-bottom: 152px;
+}
+/* Action section styles */
+.action-area{
+  display: flex;
+  justify-content: center;
+  margin:0% 13.5% 9.67%;
+}
+.action-content h3{
+  font-weight: bold;
+  font-size: 42px;
+  color:#252432;
+
+}
+.action-content p{
+  font-size: 24px;
+  color:rgba(37, 36, 50, 0.5);
+  font-weight: 400;
+  margin-top: 23px;
+  margin-bottom: 23px;
+
+}
+.action-area img{
+  border-radius: 48px;
+  height: 328px;
+  width: 403px;
+  margin-left: 220px;
+  cursor: pointer;
+}
+/* user information styles */
+.user-area{
+  text-align:center ;
+  margin:0% 13.5% 9.67%;
+  padding:50px 142px ;
+  background-color:rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  border:none;
+}
+.user-details{
+  display: flex;
+  justify-content: space-around;
+}
+.user-area h2{
+  font-size: 38px;
+  font-weight: bold;
+  color:#252432;
+  margin-bottom: 40px;
+}
+.user-details h1{
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: 700;
+}
+.user-details p{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
