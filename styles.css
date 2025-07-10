@@ -16,8 +16,14 @@
   box-sizing: border-box;
 }
 /* shared styles */
+body{
+  background-color: rgb(214, 221, 237,0.5);
+}
 .primary-color{
  color: #4E47FF;
+}
+.primary-center{
+  text-align: center;
 }
 .btn-primary{
   border-radius: 10px;
@@ -118,4 +124,52 @@ nav button{
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
+}
+/* review section styles */
+
+.review-area{
+  justify-content: center;
+  margin:0% 13.5% 9.67%;
+}
+.all-review{
+  display: flex;
+  justify-content: space-around;
+
+}
+.reviewer{
+  display: flex;
+  
+}
+.review-title h3{
+  text-align: center;
+  font-size: 42px;
+  font-weight:700;
+  margin-bottom: 50px;
+}
+.indi-review{
+  width: 366px;
+  height: 243px;
+  background-color: rgb(255, 255, 255,0.5);
+  border:none;
+  border-radius: 14px;
+  justify-content: space-around;
+  gap: 20px;
+  padding:24px;
+  cursor: pointer;
+}
+.indi-review h3{margin-top: 24px;
+font-size: 24px;}
+.indi-review p{
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.reviewer img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.reviewer h4 ,p{
+  color:rgba(0, 0, 0, 0.5);
+  gap: 2px;
 }
