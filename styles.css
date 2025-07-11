@@ -199,3 +199,50 @@ font-size: 24px;}
   border-radius:48px ;
   cursor: pointer;
 }
+/* section five styles */
+.section-five-area{
+  display: flex;
+  justify-content: space-between;
+  margin:0% 13.5% 6.73%;
+  border:none;
+}
+.section-title h1{
+  font-size: 97px;
+  font-weight: 700;
+  color: black;
+}
+.section-five-area form label{
+  font-size: 18px;
+  font-weight: 500;
+}
+#email,#name{
+  width: 497px;
+  height: 70px;
+  border-radius: 10px;
+  border: 2px solid #D6DDED;
+  padding-left: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+  
+}
+#message{
+   width: 497px;
+  height: 135px;
+  border-radius: 10px;
+  border: 2px solid #D6DDED;
+  padding-left: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  font-weight: 500;
+}
+.section-five-area form input[type="submit"]{
+  width: 497px;
+  height: 62px;
+  font-size: 16px;
+  font-weight: bold;
+}
