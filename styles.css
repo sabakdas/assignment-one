@@ -18,6 +18,7 @@
 /* shared styles */
 body{
   background-color: rgb(214, 221, 237,0.5);
+  
 }
 .primary-color{
  color: #4E47FF;
@@ -31,7 +32,14 @@ body{
   border:none;
   color: white;
   padding: 12px 36px;
+}
+.btn-primary:hover{
+  background-color: white;
+  color:orange;
   cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: bold;
 }
 /* header styles */
 .header{
@@ -96,6 +104,9 @@ nav button{
   margin-left: 220px;
   cursor: pointer;
 }
+.action-area img:hover{
+  box-shadow:0 0 15px rgba(0, 0, 255, 0.5);
+}
 /* user information styles */
 .user-area{
   text-align:center ;
@@ -104,6 +115,9 @@ nav button{
   background-color:rgba(78, 71, 255, 0.1);
   border-radius: 24px;
   border:none;
+}
+.user-area:hover{
+  box-shadow:0 0 15px rgba(0, 0, 0, 0.5);
 }
 .user-details{
   display: flex;
@@ -153,9 +167,12 @@ nav button{
   border:none;
   border-radius: 14px;
   justify-content: space-around;
-  gap: 40px;
+  margin-right: 1rem;
   padding:24px;
   cursor: pointer;
+}
+.indi-review:hover{
+  box-shadow:0 0 15px rgba(0, 0, 0, 0.5);
 }
 .indi-review h3{margin-top: 24px;
 font-size: 24px;}
@@ -198,7 +215,15 @@ font-size: 24px;}
   height: auto;
   border-radius:48px ;
   cursor: pointer;
+
 }
+.section-four-area:hover{
+  box-shadow:0 0 15px rgba(0, 0, 0, 0.5);
+}
+.section-four-area img:hover{
+  box-shadow:0 0 15px rgba(0, 0, 255, 0.5);
+}
+
 /* section five styles */
 .section-five-area{
   display: flex;
@@ -245,4 +270,36 @@ font-size: 24px;}
   height: 62px;
   font-size: 16px;
   font-weight: bold;
+}
+/* footer section styles */
+footer{
+  background-color: white;
+  padding:20px;
+}
+.footer-container{
+  margin:103px 454px;
+align-items: center;
+  text-align: center;
+} 
+.footer-info{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-info a{
+  color:#8987A1;
+  text-decoration: none;
+}
+.footer-info a:hover{
+  color:orange; 
+  font-size:16px;
+  font-weight: bold;
+}
+.footer-content h1{
+  font-size: 100px;
+  font-weight: 900;
+  color:#4E47FF;
+}
+.footer-content p{
+  color:#8987A1;
+  padding-bottom: 20px;
 }
